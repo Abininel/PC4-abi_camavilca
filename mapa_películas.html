@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_14968823cf0d18dcdfc32f6b1e9b1dc1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_14968823cf0d18dcdfc32f6b1e9b1dc1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_14968823cf0d18dcdfc32f6b1e9b1dc1 = L.map(
+                "map_14968823cf0d18dcdfc32f6b1e9b1dc1",
+                {
+                    center: [0.0, 100.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_59d0b780a5eb2322062e690a2cfbb2e2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_59d0b780a5eb2322062e690a2cfbb2e2.addTo(map_14968823cf0d18dcdfc32f6b1e9b1dc1);
+        
+    
+            var marker_fd4fa473882ff9fa57e57841415c08c7 = L.marker(
+                [33.749, -84.388],
+                {}
+            ).addTo(map_14968823cf0d18dcdfc32f6b1e9b1dc1);
+        
+    
+        var popup_c3a5cba39c6a4c92526fb1420beb8cd8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_92a45eeb9c38ce5f9776936c0e811c57 = $(`<div id="html_92a45eeb9c38ce5f9776936c0e811c57" style="width: 100.0%; height: 100.0%;">     Nombre: Front of the Class     Director: Peter Werner     Año: 2008     Género: Drama     Ubicación: Atlanta, Georgia, EE.UU.     </div>`)[0];
+                popup_c3a5cba39c6a4c92526fb1420beb8cd8.setContent(html_92a45eeb9c38ce5f9776936c0e811c57);
+            
+        
+
+        marker_fd4fa473882ff9fa57e57841415c08c7.bindPopup(popup_c3a5cba39c6a4c92526fb1420beb8cd8)
+        ;
+
+        
+    
+    
+            marker_fd4fa473882ff9fa57e57841415c08c7.bindTooltip(
+                `<div>
+                     Front of the Class
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_152da1e7a27666441474f30834a51c57 = L.marker(
+                [41.921, -87.6339],
+                {}
+            ).addTo(map_14968823cf0d18dcdfc32f6b1e9b1dc1);
+        
+    
+        var popup_db06811a73617e959f9cf0cc05b3019d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b4a4edead6981dd9a7ccf103d0cc813c = $(`<div id="html_b4a4edead6981dd9a7ccf103d0cc813c" style="width: 100.0%; height: 100.0%;">     Nombre: Mi pobre angelito 1     Director: Chris Columbus     Año: 1990     Género: Comedia     Ubicación: Chicago, Illinois, EE.UU.     </div>`)[0];
+                popup_db06811a73617e959f9cf0cc05b3019d.setContent(html_b4a4edead6981dd9a7ccf103d0cc813c);
+            
+        
+
+        marker_152da1e7a27666441474f30834a51c57.bindPopup(popup_db06811a73617e959f9cf0cc05b3019d)
+        ;
+
+        
+    
+    
+            marker_152da1e7a27666441474f30834a51c57.bindTooltip(
+                `<div>
+                     Mi pobre angelito 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f5909ac13a42a71aacab1eaee122086 = L.marker(
+                [40.758, -73.9855],
+                {}
+            ).addTo(map_14968823cf0d18dcdfc32f6b1e9b1dc1);
+        
+    
+        var popup_ab2975332d367253233419e0fcee4a96 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_16f9dc59b85b48a9785d86e0b3cd9f12 = $(`<div id="html_16f9dc59b85b48a9785d86e0b3cd9f12" style="width: 100.0%; height: 100.0%;">     Nombre: Los cazafantasmas     Director: Ivan Reitman     Año: 1984     Género: Ciencia ficción     Ubicación: Nueva York, EE.UU.     </div>`)[0];
+                popup_ab2975332d367253233419e0fcee4a96.setContent(html_16f9dc59b85b48a9785d86e0b3cd9f12);
+            
+        
+
+        marker_6f5909ac13a42a71aacab1eaee122086.bindPopup(popup_ab2975332d367253233419e0fcee4a96)
+        ;
+
+        
+    
+    
+            marker_6f5909ac13a42a71aacab1eaee122086.bindTooltip(
+                `<div>
+                     Los cazafantasmas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7f2937f7270acd8372a2ca8362342a3 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_14968823cf0d18dcdfc32f6b1e9b1dc1);
+        
+    
+        var popup_9eaf65f81156a84ac39513f128b726cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6b02df9dbe895c87f8d67e4f8b5e2131 = $(`<div id="html_6b02df9dbe895c87f8d67e4f8b5e2131" style="width: 100.0%; height: 100.0%;">     Nombre: Misterio a la vista     Director: Jeremy Garelick     Año: 2023     Género: Comedia / Misterio     Ubicación: París, Francia     </div>`)[0];
+                popup_9eaf65f81156a84ac39513f128b726cd.setContent(html_6b02df9dbe895c87f8d67e4f8b5e2131);
+            
+        
+
+        marker_c7f2937f7270acd8372a2ca8362342a3.bindPopup(popup_9eaf65f81156a84ac39513f128b726cd)
+        ;
+
+        
+    
+    
+            marker_c7f2937f7270acd8372a2ca8362342a3.bindTooltip(
+                `<div>
+                     Misterio a la vista
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a3b78421bcdb578494aca114f8e2e7a = L.marker(
+                [-20.9176, 142.7028],
+                {}
+            ).addTo(map_14968823cf0d18dcdfc32f6b1e9b1dc1);
+        
+    
+        var popup_2710646ff155683ae08c4edfd1b2d4a0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_18bb668f46cbb8bf5be5e95cba232db2 = $(`<div id="html_18bb668f46cbb8bf5be5e95cba232db2" style="width: 100.0%; height: 100.0%;">     Nombre: Amor y monstruos     Director: Michael Matthews     Año: 2020     Género: Aventura / Ciencia ficción     Ubicación: Queensland, Australia     </div>`)[0];
+                popup_2710646ff155683ae08c4edfd1b2d4a0.setContent(html_18bb668f46cbb8bf5be5e95cba232db2);
+            
+        
+
+        marker_5a3b78421bcdb578494aca114f8e2e7a.bindPopup(popup_2710646ff155683ae08c4edfd1b2d4a0)
+        ;
+
+        
+    
+    
+            marker_5a3b78421bcdb578494aca114f8e2e7a.bindTooltip(
+                `<div>
+                     Amor y monstruos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
