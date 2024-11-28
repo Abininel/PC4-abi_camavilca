@@ -134,13 +134,13 @@ st.markdown("<h2 style='text-align: center;'>Explicación de un tema de las clas
 # unsafe_allow_html=True: Este es un argumento opcional en la función markdown.
 
 # Agregamos un video a la aplicación web ( menor a 20 MB)
-st.video("Ejercicio _2.mp4")
-st.video("Ejercicio_5.mp4")
+#st.video("Ejercicio _2.mp4")
+#st.video("Ejercicio_5.mp4")
 # st.video("ppc-2024-1.mp4"): Esta línea está agregando un video a la aplicación web.
 
 
 # Agregamos un enlace a la página web donde está el video.
-# enlace = f'<a href="https://drive.google.com/file/d/1CbCTv4EFV5G5XH7rOpIcPmjKr23Muojs/view?usp=drive_link" target="_blank"><button>Nombre creativo para el botón</button></a>'
+ enlace = f'<a href="https://drive.google.com/file/d/1pD2CCRNvarmJx04TaEXsya6_AmO80QuE/view?usp=sharing" target="_blank"><button>sI TE GUSTA EL CHISME HAZ CLICK AQUÍ :V</button></a>'
 # st.markdown(enlace, unsafe_allow_html=True)
 # f'<a href="URL" target="_blank"><button>Nombre</button></a>':
 # La etiqueta <a> se utiliza para crear un enlace en HTML.
